@@ -1,92 +1,98 @@
-# 👋 Hey there! I'm **Dishank Shah** 🚀  
+<div align="center">
+
+# Hi, I'm Dishank Shah
+
+**ML engineer in the making · RAG systems · full-stack · data analysis**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dishank-shah-b43b5029a)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dishank132@gmail.com)
+[![Profile views](https://komarev.com/ghpvc/?username=Dishank13&style=flat-square&color=0A66C2&label=views)](https://github.com/Dishank13)
+
+</div>
+
+I'm a Computer & Communication Engineering student at Manipal Institute of Technology. I like building systems end to end: retrieval pipelines that check their own answers, services that do their heavy lifting in background jobs, and analyses that commit to a plan before looking at the data.
+
+- 🔭 Working on retrieval-augmented generation for time series
+- 🧠 Interested in agentic RAG, anomaly detection, and reproducible research
+- 📫 Open to internships and collaboration. Email is the fastest way to reach me
 
 ---
 
-## 🌟 About Me  
+## Featured projects
 
-🎓 **Computer Science & Engineering Student**  
-💻 Passionate about **Machine Learning**, **Full-Stack Development**, **Operating Systems**, and **Cloud Computing**  
+<table>
+<tr>
+<td width="50%" valign="top">
 
-🧠 I love **learning by building** — breaking things, fixing them, and making them better  
-🌱 Curious about *how systems work under the hood*  
-🤝 Always open to **collaboration, learning, and new challenges**  
+### [AnomalyIQ](https://github.com/Dishank13/anomalyiq)
+Upload a CSV and get a live feed of statistical anomalies, each with a severity rating and a plain-English explanation from Gemini. Four detectors (rolling Z-score, IQR, STL, Isolation Forest) run as BullMQ jobs, and progress streams back over WebSockets.
 
-⚡ *Turning ideas into impactful tech, one project at a time!*  
+`React` `Node.js` `FastAPI` `Redis` `MongoDB` `Docker`
 
----
+[**Live demo →**](https://anomalyiq.vercel.app)
 
-## 🌐 Connect With Me  
+</td>
+<td width="50%" valign="top">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dishank-shah-b43b5029a)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dishank132@gmail.com)
+### [ArXiv Research Assistant](https://github.com/Dishank13/arxiv-research-assistant)
+Agentic RAG over about 3,000 ML papers. It fuses Qdrant dense search with BM25, reranks with a cross-encoder, and falls back to web search when retrieval confidence is low (CRAG). A LangGraph agent running Llama 3.3 70B checks its answer for hallucinations before responding.
 
----
+`LangGraph` `Qdrant` `Groq` `FastAPI` `Streamlit` `RAGAS`
 
-## 🛠️ Tech Stack  
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 🧑‍💻 Programming Languages  
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-004482?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+### [F1 Regulation Competitiveness](https://github.com/Dishank13/f1-regulation-competitiveness)
+Did Formula 1's rule resets actually close up the field? This is a pre-registered interrupted time-series study of 20 years of timing data (2006–2026). The answer is no: none of the five resets narrowed the field beyond its existing trend.
 
----
+`Python` `FastF1` `Causal inference` `Event study`
 
-### 🌐 Web & Frameworks  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![JavaFX](https://img.shields.io/badge/JavaFX-FF0000?style=for-the-badge&logo=java&logoColor=white)
+</td>
+<td width="50%" valign="top">
 
----
+### [ENT Disorder Chatbot](https://github.com/Dishank13/ENT-Chatbot-RAG-)
+A fully offline medical RAG chatbot that answers with cited sources. It uses BGE-small embeddings, ChromaDB, and a local LLM served through Ollama, and comes with an IEEE-format paper draft.
 
-### 🗄️ Databases  
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/Postgres-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+`LangChain` `ChromaDB` `Ollama` `Streamlit`
+
+</td>
+</tr>
+</table>
+
+<sub>Also: [Stock Price Prediction](https://github.com/Dishank13/Stock-Price-Prediction) (Keras + Flask forecasting dashboard) · [MIT-CCE-Labs](https://github.com/Dishank13/MIT-CCE-Labs) (semester-wise lab implementations)</sub>
 
 ---
 
-### ☁️ Cloud & DevOps  
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+## Tech stack
+
+**Languages**
+<br>
+<img src="https://skillicons.dev/icons?i=py,js,cpp,c,java,bash&theme=dark" />
+
+**AI / ML & data**
+<br>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" />
+<br>
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+
+**Backend & web**
+<br>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,react,redux,flask,html,css&theme=dark" />
+
+**Data stores, cloud & tooling**
+<br>
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,docker,aws,azure,gcp,vercel,git,postman&theme=dark" />
 
 ---
 
-### 🧪 Data Science & Machine Learning  
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-
-
----
-
-### 🛠️ Tools & Utilities  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Windows Terminal](https://img.shields.io/badge/Windows_Terminal-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-
----
-
-## ✨ Final Note  
-
-💬 *Always excited to learn, build, and collaborate on meaningful tech projects.*  
-🚀 Let’s connect and create something awesome together!  
-
-⭐ If you like my work, don’t forget to star my repositories!
+<div align="center">
+<sub>⭐ If something here is useful to you, a star is always appreciated.</sub>
+</div>

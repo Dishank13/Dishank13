@@ -17,7 +17,7 @@
 
 ## About me
 
-Hey! I'm Dishank, an engineering student at Manipal who likes turning ideas into working things. Some weeks that's a machine learning model, some weeks a full-stack app, and sometimes a deep dive into a question I just can't stop thinking about (like whether Formula 1's rule changes actually work).
+Hey! I'm Dishank, an engineering student at Manipal who likes turning ideas into working things. Some weeks that's a machine learning model, some weeks a full-stack app, and sometimes a deep dive into a question I just can't stop thinking about.
 
 - 🌱 Currently exploring AI agents, retrieval systems and time-series data
 - 🛠️ Happiest when an idea goes all the way from notebook to live product

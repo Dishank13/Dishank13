@@ -132,10 +132,10 @@ Agentic RAG over 3,000+ ML papers. BM25 + dense retrieval fused with RRF, cross-
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:0ea5e9&height=3" width="100%" />
 
-## GitHub activity
+## By the numbers
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Dishank13&theme=tokyonight&hide_border=true&background=0D1117&ring=0EA5E9&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub streak" />
+  <img src="./assets/numbers.svg" width="100%" alt="130K F1 race laps modelled · 3K+ research papers indexed · 72x faster anomaly scoring · 200+ students at my workshops" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:1e3a8a,100:0f172a&height=120&section=footer" width="100%" />

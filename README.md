@@ -1,98 +1,141 @@
 <div align="center">
 
-# Hi, I'm Dishank Shah
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=200&section=header&text=Dishank%20Shah&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Data%20%C2%B7%20Statistics%20%C2%B7%20Retrieval%20Systems&descSize=18&descAlignY=58" width="100%" />
 
-**ML engineer in the making · RAG systems · full-stack · data analysis**
+<a href="https://github.com/Dishank13">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Pre-registered+statistical+analysis;Anomaly+detection+that+ships+to+production;Agentic+RAG+with+hybrid+retrieval;B.Tech+CCE+%40+Manipal+Institute+of+Technology" alt="Typing SVG" />
+</a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/dishank-shah-b43b5029a)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dishank132@gmail.com)
-[![Profile views](https://komarev.com/ghpvc/?username=Dishank13&style=flat-square&color=0A66C2&label=views)](https://github.com/Dishank13)
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dishank-shah-b43b5029a)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dishank132@gmail.com)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Dishank13)
+![Location](https://img.shields.io/badge/Pune,_India-1e293b?style=for-the-badge&logo=googlemaps&logoColor=38BDF8)
 
 </div>
 
-I'm a Computer & Communication Engineering student at Manipal Institute of Technology. I like building systems end to end: retrieval pipelines that check their own answers, services that do their heavy lifting in background jobs, and analyses that commit to a plan before looking at the data.
+## About me
 
-- 🔭 Working on retrieval-augmented generation for time series
-- 🧠 Interested in agentic RAG, anomaly detection, and reproducible research
-- 📫 Open to internships and collaboration. Email is the fastest way to reach me
+I'm a Computer & Communication Engineering student at Manipal Institute of Technology (class of 2027). I care about getting the numbers right: I write the analysis plan before the code, validate without lookahead leakage, and benchmark against a baseline before claiming a win. Then I turn the result into something people can use.
 
----
+- 💼 **AI & Automation Intern at Jio Platforms** (2025): built Appium + BrowserStack test automation that cut regression cycle time by 40%
+- 🏛️ **Chairperson, IEEE Computer Society**, IEEE Student Branch Manipal: running AI/ML workshops for 200+ students
+- 📜 Certified in Snowflake Data Engineering, Supervised ML (DeepLearning.AI), and Mathematics for ML (Imperial College London)
+- 📫 Open to data science and ML roles. Email is the fastest way to reach me
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:0ea5e9&height=3" width="100%" />
 
 ## Featured projects
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### [AnomalyIQ](https://github.com/Dishank13/anomalyiq)
-Upload a CSV and get a live feed of statistical anomalies, each with a severity rating and a plain-English explanation from Gemini. Four detectors (rolling Z-score, IQR, STL, Isolation Forest) run as BullMQ jobs, and progress streams back over WebSockets.
+### 🏎️ [F1 Regulation Competitiveness](https://github.com/Dishank13/f1-regulation-competitiveness)
 
-`React` `Node.js` `FastAPI` `Redis` `MongoDB` `Docker`
+Did Formula 1's rule resets actually close up the field? A pre-registered event study on 21 seasons of timing data. The plan was Git-tagged before any analysis code existed.
 
-[**Live demo →**](https://anomalyiq.vercel.app)
+**No reset narrowed the field beyond trend. Three widened it.**
 
-</td>
-<td width="50%" valign="top">
+`130K race laps` · `Huber regression` · `ITS + cluster bootstrap` · `Holm correction`
 
-### [ArXiv Research Assistant](https://github.com/Dishank13/arxiv-research-assistant)
-Agentic RAG over about 3,000 ML papers. It fuses Qdrant dense search with BM25, reranks with a cross-encoder, and falls back to web search when retrieval confidence is low (CRAG). A LangGraph agent running Llama 3.3 70B checks its answer for hallucinations before responding.
-
-`LangGraph` `Qdrant` `Groq` `FastAPI` `Streamlit` `RAGAS`
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![statsmodels](https://img.shields.io/badge/-statsmodels-4051B5?style=flat-square)
+![FastF1](https://img.shields.io/badge/-FastF1-E10600?style=flat-square)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### [F1 Regulation Competitiveness](https://github.com/Dishank13/f1-regulation-competitiveness)
-Did Formula 1's rule resets actually close up the field? This is a pre-registered interrupted time-series study of 20 years of timing data (2006–2026). The answer is no: none of the five resets narrowed the field beyond its existing trend.
+### 📈 [AnomalyIQ](https://github.com/Dishank13/anomalyiq)
 
-`Python` `FastF1` `Causal inference` `Event study`
+Upload a CSV, get a live feed of anomalies with plain-English explanations. Four leakage-free detectors, benchmarked on 5 anomaly regimes.
+
+**STL: F1 0.97 on seasonal anomalies where baselines scored 0.00.**
+
+`3.5× F1 with Isolation Forest` · `61–72× NumPy speedup` · `BullMQ jobs`
+
+![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+[![Live demo](https://img.shields.io/badge/Live_demo-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://anomalyiq.vercel.app)
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### [ENT Disorder Chatbot](https://github.com/Dishank13/ENT-Chatbot-RAG-)
-A fully offline medical RAG chatbot that answers with cited sources. It uses BGE-small embeddings, ChromaDB, and a local LLM served through Ollama, and comes with an IEEE-format paper draft.
+### 🔬 [ArXiv Research Assistant](https://github.com/Dishank13/arxiv-research-assistant)
 
-`LangChain` `ChromaDB` `Ollama` `Streamlit`
+Agentic RAG over 3,000+ ML papers. BM25 + dense retrieval fused with RRF, cross-encoder reranking, and a LangGraph confidence gate that falls back to web search.
+
+**Hybrid + reranking lifted context precision by about 20% in a RAGAS ablation.**
+
+`Corrective RAG` · `Hallucination check` · `Dockerized`
+
+![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Qdrant](https://img.shields.io/badge/-Qdrant-DC244C?style=flat-square)
+![Groq](https://img.shields.io/badge/-Groq-F55036?style=flat-square)
+
+[![Live demo](https://img.shields.io/badge/Live_demo-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/Dishank13/arxiv-research-assistant)
 
 </td>
 </tr>
 </table>
 
-<sub>Also: [Stock Price Prediction](https://github.com/Dishank13/Stock-Price-Prediction) (Keras + Flask forecasting dashboard) · [MIT-CCE-Labs](https://github.com/Dishank13/MIT-CCE-Labs) (semester-wise lab implementations)</sub>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:0ea5e9&height=3" width="100%" />
 
----
+## Toolkit
 
-## Tech stack
+<table>
+<tr>
+<td align="center" width="140"><b>Languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=py,java,c,cpp,js&theme=dark" /> <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" height="40" /></td>
+</tr>
+<tr>
+<td align="center"><b>Data &amp; stats</b></td>
+<td>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" />
+<img src="https://img.shields.io/badge/statsmodels-4051B5?style=flat-square" />
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+</td>
+</tr>
+<tr>
+<td align="center"><b>ML &amp; LLMs</b></td>
+<td>
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square" />
+<img src="https://img.shields.io/badge/RAGAS-6D28D9?style=flat-square" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
+<img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" />
+</td>
+</tr>
+<tr>
+<td align="center"><b>Data platforms</b></td>
+<td>
+<img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" />
+<img src="https://img.shields.io/badge/Oracle_SQL-F80000?style=flat-square&logo=oracle&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white" />
+</td>
+</tr>
+<tr>
+<td align="center"><b>Engineering</b></td>
+<td><img src="https://skillicons.dev/icons?i=fastapi,nodejs,react,docker,linux,git&theme=dark" /></td>
+</tr>
+</table>
 
-**Languages**
-<br>
-<img src="https://skillicons.dev/icons?i=py,js,cpp,c,java,bash&theme=dark" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:0ea5e9&height=3" width="100%" />
 
-**AI / ML & data**
-<br>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" />
-<br>
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-
-**Backend & web**
-<br>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,react,redux,flask,html,css&theme=dark" />
-
-**Data stores, cloud & tooling**
-<br>
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,docker,aws,azure,gcp,vercel,git,postman&theme=dark" />
-
----
+## GitHub activity
 
 <div align="center">
-<sub>⭐ If something here is useful to you, a star is always appreciated.</sub>
+  <img src="https://streak-stats.demolab.com?user=Dishank13&theme=tokyonight&hide_border=true&background=0D1117&ring=0EA5E9&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub streak" />
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:1e3a8a,100:0f172a&height=120&section=footer" width="100%" />

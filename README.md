@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=200&section=header&text=Dishank%20Shah&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Data%20%C2%B7%20Statistics%20%C2%B7%20Retrieval%20Systems&descSize=18&descAlignY=58" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0ea5e9&height=200&section=header&text=Dishank%20Shah&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=ML%20%C2%B7%20Data%20%C2%B7%20Full-Stack&descSize=18&descAlignY=58" width="100%" />
 
 <a href="https://github.com/Dishank13">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Pre-registered+statistical+analysis;Anomaly+detection+that+ships+to+production;Agentic+RAG+with+hybrid+retrieval;B.Tech+CCE+%40+Manipal+Institute+of+Technology" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=Building+things+with+data+%26+AI;Curious+about+how+systems+work;Always+shipping+something+new" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -17,12 +17,12 @@
 
 ## About me
 
-I'm a Computer & Communication Engineering student at Manipal Institute of Technology (class of 2027). I care about getting the numbers right: I write the analysis plan before the code, validate without lookahead leakage, and benchmark against a baseline before claiming a win. Then I turn the result into something people can use.
+Hey! I'm Dishank, an engineering student at Manipal who likes turning ideas into working things. Some weeks that's a machine learning model, some weeks a full-stack app, and sometimes a deep dive into a question I just can't stop thinking about (like whether Formula 1's rule changes actually work).
 
-- 💼 **AI & Automation Intern at Jio Platforms** (2025): built Appium + BrowserStack test automation that cut regression cycle time by 40%
-- 🏛️ **Chairperson, IEEE Computer Society**, IEEE Student Branch Manipal: running AI/ML workshops for 200+ students
-- 📜 Certified in Snowflake Data Engineering, Supervised ML (DeepLearning.AI), and Mathematics for ML (Imperial College London)
-- 📫 Open to data science and ML roles. Email is the fastest way to reach me
+- 🌱 Currently exploring AI agents, retrieval systems and time-series data
+- 🛠️ Happiest when an idea goes all the way from notebook to live product
+- 🏎️ Outside of code: Formula 1, tech communities and learning something new
+- 🤝 Always up for collaborating. Say hi on [LinkedIn](https://www.linkedin.com/in/dishank-shah-b43b5029a) or by [email](mailto:dishank132@gmail.com)
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:0ea5e9&height=3" width="100%" />
 

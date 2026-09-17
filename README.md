@@ -17,7 +17,7 @@
 
 ## About me
 
-Hey! I'm Dishank, an engineering student at Manipal who likes turning ideas into working things. Some weeks that's a machine learning model, some weeks a full-stack app, and sometimes a deep dive into a question I just can't stop thinking about.
+Hey! I'm Dishank, an engineering student at Manipal who likes turning ideas into working things. Some weeks that's a machine learning model, some weeks a full-stack app, and sometimes a deep dive into a question I just can't stop thinking about (like whether Formula 1's rule changes actually work).
 
 - 🌱 Currently exploring AI agents, retrieval systems and time-series data
 - 🛠️ Happiest when an idea goes all the way from notebook to live product
@@ -30,22 +30,24 @@ Hey! I'm Dishank, an engineering student at Manipal who likes turning ideas into
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 🏎️ [F1 Regulation Competitiveness](https://github.com/Dishank13/f1-regulation-competitiveness)
+### ⚽ [The Pass He Didn't See](https://github.com/Dishank13/pass-he-didnt-see)
 
-Did Formula 1's rule resets actually close up the field? A pre-registered event study on 21 seasons of timing data. The plan was Git-tagged before any analysis code existed.
+A mini TacticAI on free data. For every pass in 426 matches of StatsBomb 360 freeze frames, it values each passing option and compares it with the pass actually played.
 
-**No reset narrowed the field beyond trend. Three widened it.**
+**Pass completion AUC 0.912 (calibrated), with expected value scored for 1.5M options.**
 
-`130K race laps` · `Huber regression` · `ITS + cluster bootstrap` · `Holm correction`
+`Graph neural nets` · `LightGBM` · `Off-policy filtering` · `Pre-registered blind test`
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![statsmodels](https://img.shields.io/badge/-statsmodels-4051B5?style=flat-square)
-![FastF1](https://img.shields.io/badge/-FastF1-E10600?style=flat-square)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
+[![Live demo](https://img.shields.io/badge/Live_demo-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://pass-he-didnt-see.vercel.app)
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 📈 [AnomalyIQ](https://github.com/Dishank13/anomalyiq)
 
@@ -62,7 +64,9 @@ Upload a CSV, get a live feed of anomalies with plain-English explanations. Four
 [![Live demo](https://img.shields.io/badge/Live_demo-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://anomalyiq.vercel.app)
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🔬 [ArXiv Research Assistant](https://github.com/Dishank13/arxiv-research-assistant)
 
@@ -77,6 +81,21 @@ Agentic RAG over 3,000+ ML papers. BM25 + dense retrieval fused with RRF, cross-
 ![Groq](https://img.shields.io/badge/-Groq-F55036?style=flat-square)
 
 [![Live demo](https://img.shields.io/badge/Live_demo-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/Dishank13/arxiv-research-assistant)
+
+</td>
+<td width="50%" valign="top">
+
+### 🏎️ [F1 Regulation Competitiveness](https://github.com/Dishank13/f1-regulation-competitiveness)
+
+Did Formula 1's rule resets actually close up the field? A pre-registered event study on 21 seasons of timing data. The plan was Git-tagged before any analysis code existed.
+
+**No reset narrowed the field beyond trend. Three widened it.**
+
+`130K race laps` · `Huber regression` · `ITS + cluster bootstrap` · `Holm correction`
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![statsmodels](https://img.shields.io/badge/-statsmodels-4051B5?style=flat-square)
+![FastF1](https://img.shields.io/badge/-FastF1-E10600?style=flat-square)
 
 </td>
 </tr>
@@ -106,6 +125,8 @@ Agentic RAG over 3,000+ ML papers. BM25 + dense retrieval fused with RRF, cross-
 <tr>
 <td align="center"><b>ML &amp; LLMs</b></td>
 <td>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square" />
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
 <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square" />
 <img src="https://img.shields.io/badge/RAGAS-6D28D9?style=flat-square" />
